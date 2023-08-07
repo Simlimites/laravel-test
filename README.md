@@ -1,37 +1,64 @@
-# Prueba técnica de desarrollo Web PHP + Laravel
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-En esta prueba se espera evidenciar la calidad del código, uso de herramientas o frameworks, entendimiento del requerimiento, usabilidad y uso de git.
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-## POST CRUD
+## About Laravel
 
-Objetivo: Crear una aplicacion de Laravel que permita consumir, almacenar, mostrar y modificar publicaciones ("posts") del servicio externo ([https://jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com/posts)).
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-Herramientas sugeridas: Laravel, SQLite, cualquier marco de frontend que consideres conveniente (Vue.js, React, etc.)
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-### Parte 1: Consumir y almacenar publicaciones
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-1.1 Crea un nuevo proyecto Laravel.
+## Learning Laravel
 
-1.2 Configura SQLite como tu sistema de base de datos.
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-1.3 Crea una migración para una nueva tabla llamada "posts". Esta tabla debe tener las siguientes columnas: id, title, body y userId.
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-1.4 Crea un "seeder" que consuma la API https://jsonplaceholder.typicode.com/posts y almacene cada publicación en la tabla "posts".
+## Laravel Sponsors
 
-### Parte 2: Mostrar y modificar publicaciones
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-2.1 Crea una vista (página web) que muestre todas las publicaciones almacenadas en la base de datos. Debe incluirse la opción de seleccionar una publicación para modificarla.
+### Premium Partners
 
-2.2 Crea una vista (página web) que permita modificar una publicación seleccionada. Debes poder cambiar el título y el cuerpo de la publicación.
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
 
-### Parte 3: Crear una API para consumir publicaciones
+## Contributing
 
-3.1 Crea un controlador API que permita consumir las publicaciones almacenadas en la base de datos.
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-3.2 El controlador debe tener al menos dos métodos: uno para obtener todas las publicaciones y otro para obtener una sola publicación por su ID.
+## Code of Conduct
 
-3.3 Prueba tus endpoints utilizando Postman o cualquier cliente de API que prefieras.
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Entrega
+## Security Vulnerabilities
 
-Por favor, proporciona el código fuente del proyecto completo, puede ser enviando un pull request a este mismo repositorio o un enlace a un repositorio nuevo.
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
